@@ -75,7 +75,7 @@ export const AddPaymentDetailsModal = ({ toggleAddPaymentModal }: PaymentModalIn
 
   return (
     <Layer
-      id="add-friend-layer"
+      id="add-payment-details-layer"
       position="center"
       onClickOutside={toggleAddPaymentModal}
       onEsc={toggleAddPaymentModal}>
